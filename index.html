@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Júlio Henrique | Fisioterapia</title>
+<style>
+:root{--ink:#1f1f1f;--sand:#e8e0d3;--warm:#a7a19a;--paper:#faf9f6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+.wrap{max-width:1050px;margin:auto;padding:24px}
+.nav,footer{display:flex;justify-content:space-between;padding:20px 0;border-bottom:1px solid #e8e3dc}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;padding:70px 0}
+.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#817b73}
+.hero h1{font-size:clamp(42px,6vw,68px);line-height:1.04;letter-spacing:-.05em;font-weight:500}
+.hero p,.muted{color:#6e6962;max-width:480px}
+.portrait{height:470px;background:#eee9e2;display:grid;place-items:center;overflow:hidden;border-radius:2px}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.btn{display:inline-block;padding:14px 20px;border:1px solid var(--ink);margin:12px 8px 0 0;font-size:13px}
+.primary{background:var(--ink);color:white}
+section{padding:65px 0;border-top:1px solid #e8e3dc}
+h2{font-size:40px;font-weight:500;letter-spacing:-.04em}
+.steps,.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{background:#f0ece6;padding:24px;min-height:210px}
+.step h3{font-size:22px;font-weight:500}
+.step p{font-size:14px;color:#6e6962}
+.service{border-top:1px solid #bdb6ad;padding:20px 0}
+.booking{background:var(--sand);padding:45px;margin:35px 0 65px}
+.contact{display:flex;gap:24px;margin-top:20px}
+a{color:inherit;text-decoration:none}
+footer{border-top:1px solid #e8e3dc;border-bottom:0;color:#827b72;font-size:12px}
+@media(max-width:700px){
+  .hero{grid-template-columns:1fr;gap:25px;padding:45px 0}
+  .portrait{height:360px;order:-1}
+  .steps,.services{grid-template-columns:1fr}
+  .booking{padding:25px;margin-bottom:45px}
+  footer{display:block}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav class="nav"><strong>Júlio Henrique • Fisioterapeuta • Paulista/PE</strong></nav>
+<main>
+<div class="hero">
+  <div>
+    <div class="eyebrow">CREFITO 416818-F</div>
+    <h1>Movimento<br>com propósito.</h1>
+    <p>Sou Júlio Henrique, fisioterapeuta. Nasci em 21 de fevereiro de 1999, no Recife, onde também me formei em 2024. Atualmente estou em formação em Osteopatia e, desde a graduação, busco oferecer um cuidado individualizado, com escuta atenta e técnica, para compreender suas necessidades, tratar suas limitações e construir, juntos, caminhos para uma vida com mais movimento e bem-estar.</p>
+  </div>
+  <div class="portrait">
+    <img src="/julio.jpg" alt="Júlio Henrique">
+  </div>
+</div>
+<section>
+  <div class="eyebrow">Meu método</div>
+  <h2>Um cuidado em três etapas.</h2>
+  <p class="muted">Cada pessoa tem uma história e necessidades próprias. O tratamento começa entendendo isso.</p>
+  <div class="steps">
+    <article class="step"><small>01 / COMPREENDER</small><h3>Avaliar</h3><p>Entender sua condição, identificar limitações e reconhecer o que interfere na sua função e qualidade de vida.</p></article>
+    <article class="step"><small>02 / INTERVIR</small><h3>Tratar</h3><p>Desenvolver um plano individualizado, com recursos terapêuticos e exercícios direcionados às suas necessidades.</p></article>
+    <article class="step"><small>03 / EVOLUIR</small><h3>Reabilitar</h3><p>Recuperar capacidades funcionais e aprimorar força, mobilidade e controle do movimento para retomar atividades com autonomia e segurança.</p></article>
+  </div>
+</section>
+<section>
+  <div class="eyebrow">Atuação</div>
+  <h2>Como posso ajudar.</h2>
+  <div class="steps" style="margin-top:1.5rem;">
+    <article class="step">
+      <small>TRAUMATO-ORTOPEDIA</small>
+      <h3>Reabilitação</h3>
+      <p>Recuperação de lesões e pós-operatório com exercícios terapêuticos, fortalecimento, controle motor, reeducação postural, estabilização segmentar e técnicas de propriocepção.</p>
+    </article>
+    <article class="step">
+      <small>TERAPIA MANUAL</small>
+      <h3>Técnicas especializadas</h3>
+      <p>Mobilização e manipulação articular (Maitland, Mulligan), manipulação vertebral, liberação miofascial, dry needling, técnicas de energia muscular e mobilização neural.</p>
+    </article>
+    <article class="step">
+      <small>FISIOTERAPIA INDIVIDUAL</small>
+      <h3>Cuidado personalizado</h3>
+      <p>Atendimento focado nas suas necessidades, com ventosaterapia, kinesio taping, alongamentos específicos, pontos-gatilho e plano de tratamento totalmente individualizado.</p>
+    </article>
+  </div>
+</section>
+<div class="booking">
+  <div class="eyebrow">Agendamento</div>
+  <h2><strong>Começamos pelo que é importante para você.</strong></h2>
+  <p>Seu objetivo é o ponto de partida.<br><strong>Que tal começarmos agora?</strong></p>
+  <a class="btn primary" href="https://wa.me/5581983581586?text=Ol%C3%A1%2C%20quero%20agendar%20uma%20sess%C3%A3o%20de%20fisioterapia." target="_blank">Agendar pelo WhatsApp ↗</a>
+  <div class="contact">
+    <a href="https://www.instagram.com/alvesjulio99/" target="_blank">Instagram</a>
+    <a href="https://wa.me/5581983581586" target="_blank">WhatsApp</a>
+  </div>
+</div>
+</main>
+<footer>
+  <span>Júlio Henrique · Fisioterapeuta</span>
+  <span>Paulista – PE · Atendimento com hora marcada</span>
+</footer>
+</div>
+</body>
+</html>
